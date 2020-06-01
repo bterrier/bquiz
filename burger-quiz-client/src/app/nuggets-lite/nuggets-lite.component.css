@@ -1,0 +1,13 @@
+:host {
+  display: block;
+}
+
+.answer {
+  font-family: "horsal";
+  font-size: 64px;
+  line-height: 64px;
+}
+
+.selected {
+  color: red;
+}

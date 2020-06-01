@@ -1,0 +1,8 @@
+<h1>{{teamName}}</h1>
+<ul>
+    <li *ngFor="let player of players">
+        <span class="playerName">{{player.name}}</span>
+        <mat-icon aria-hidden="false" aria-label="Example home icon" [hidden]="!player.isMe">chevron_left</mat-icon>
+        <mat-icon aria-hidden="false" aria-label="Example home icon" [hidden]="!player.isLead">star</mat-icon>
+    </li>
+</ul>

@@ -1,0 +1,16 @@
+<section>
+    <h1>Nuggets</h1>
+    <button mat-button [class.selected]="answer==='A'" class="answer" (click)="selectAnswer('A')">A</button>
+    <button mat-button [class.selected]="answer==='B'" class="answer" (click)="selectAnswer('B')">B</button>
+    <button mat-button [class.selected]="answer==='C'" class="answer" (click)="selectAnswer('C')">C</button>
+    <button mat-button [class.selected]="answer==='D'" class="answer" (click)="selectAnswer('D')">D</button>
+</section>
+
+<section>
+    <h1>Salt or Pepper</h1>
+    <p><em>You can use your keyboard for faster input<br>
+    Use keys 1 or A for "A", keys 2 or B for "B" and keys 3 or C for "Both"</em></p>
+    <button mat-button [class.selected]="spAnswer==='A'" class="answer" (click)="selectSPAnswer('A')">A</button>
+    <button mat-button [class.selected]="spAnswer==='B'" class="answer" (click)="selectSPAnswer('B')">B</button>
+    <button mat-button [class.selected]="spAnswer==='Both'" class="answer" (click)="selectSPAnswer('Both')">Both</button>
+</section>

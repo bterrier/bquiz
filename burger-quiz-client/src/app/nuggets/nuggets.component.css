@@ -1,0 +1,23 @@
+:host {
+  display: block;
+}
+
+input[type="radio"] {
+  display:none;   
+}
+
+label {
+  font-size: 44px;
+  display: block;
+  margin: 64px;
+}
+
+input[type="radio"]:checked + label {
+  color: red;
+}
+
+h1 {
+  font-size: 64px;
+  margin: auto;
+  text-align: center;
+}

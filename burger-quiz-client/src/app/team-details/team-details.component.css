@@ -1,0 +1,8 @@
+:host {
+  display: block;
+}
+[hidden] { display: none !important;}
+
+.playerName {
+  font-size: 18px;
+}

@@ -1,0 +1,15 @@
+<h1>{{questionText}}</h1>
+
+<div>
+
+<input type="radio" id="A" name="answer" value="A" [(ngModel)]="answer">
+  <label for="A"><span style="font-family: 'horsal'; font-size: 1.4em;">A</span>&nbsp;{{answerText[0]}}</label></div>
+  <div><input type="radio" id="B" name="answer" value="B" [(ngModel)]="answer">
+    <label for="B"><span style="font-family: 'horsal'; font-size: 1.4em;">B</span>&nbsp;{{answerText[1]}}</label></div>
+    <div><input type="radio" id="C" name="answer" value="C" [(ngModel)]="answer">
+      <label for="C"><span style="font-family: 'horsal'; font-size: 1.4em;">C</span>&nbsp;{{answerText[2]}}</label></div>
+      <div><input type="radio" id="D" name="answer" value="D" [(ngModel)]="answer">
+        <label for="D"><span style="font-family: 'horsal'; font-size: 1.4em;">D</span>&nbsp;{{answerText[3]}}</label></div>
+<div>
+        <p>You selected: {{answer}}</p>
+    </div>
